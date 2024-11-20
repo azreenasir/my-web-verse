@@ -1,6 +1,6 @@
 import styles from "./HeroStyle.module.css";
 
-import heroImg from "../assets/hero-img.png";
+import heroImg from "../assets/pp.png";
 import light from "../assets/sun.svg";
 import dark from "../assets/moon.svg";
 import githubLight from "../assets/github-light.svg";
