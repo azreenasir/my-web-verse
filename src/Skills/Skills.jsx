@@ -12,69 +12,57 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList
           checkMarkIcon={checkMarkIcon}
-          skill='HTML'
+          skill='C++'
         />
         <SkillList
           checkMarkIcon={checkMarkIcon}
-          skill='JavaScript'
+          skill='Java'
         />
         <SkillList
           checkMarkIcon={checkMarkIcon}
-          skill='React'
+          skill='Python'
         />
         <SkillList
           checkMarkIcon={checkMarkIcon}
-          skill='Laravel'
-        />
-        <SkillList
-          checkMarkIcon={checkMarkIcon}
-          skill='Laravel'
+          skill='VB.Net'
         />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList
           checkMarkIcon={checkMarkIcon}
-          skill='HTML'
-        />
-        <SkillList
-          checkMarkIcon={checkMarkIcon}
           skill='JavaScript'
         />
         <SkillList
           checkMarkIcon={checkMarkIcon}
+          skill='Bootstrap'
+        />
+        <SkillList
+          checkMarkIcon={checkMarkIcon}
+          skill='PHP'
+        />
+        <SkillList
+          checkMarkIcon={checkMarkIcon}
+          skill='Laravel'
+        />
+        <SkillList
+          checkMarkIcon={checkMarkIcon}
           skill='React'
-        />
-        <SkillList
-          checkMarkIcon={checkMarkIcon}
-          skill='Laravel'
-        />
-        <SkillList
-          checkMarkIcon={checkMarkIcon}
-          skill='Laravel'
         />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList
           checkMarkIcon={checkMarkIcon}
-          skill='HTML'
+          skill='MySQL'
         />
         <SkillList
           checkMarkIcon={checkMarkIcon}
-          skill='JavaScript'
+          skill='Microsoft SQL Server'
         />
         <SkillList
           checkMarkIcon={checkMarkIcon}
-          skill='React'
-        />
-        <SkillList
-          checkMarkIcon={checkMarkIcon}
-          skill='Laravel'
-        />
-        <SkillList
-          checkMarkIcon={checkMarkIcon}
-          skill='Laravel'
+          skill='Firebase'
         />
       </div>
       <hr />

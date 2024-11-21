@@ -60,7 +60,9 @@ function Hero() {
             />
           </a>
         </span>
-        <p className={styles.description}>Software Developer lorem ipsum</p>
+        <p className={styles.description}>
+          Software Developer at Fermion Merimen.
+        </p>
         <a
           href={cv}
           download

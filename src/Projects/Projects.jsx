@@ -1,5 +1,8 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../assets/viberr.png";
+
+import travelLogo from "../assets/travelApp.png";
+import PopcornLogo from "../assets/popcorn.png";
+import WorldWiseLogo from "../assets/worldwise.png";
 import ProjectCard from "../common/ProjectCard";
 
 function Project() {
@@ -11,22 +14,22 @@ function Project() {
       <h1 className='sectionTitle'>Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link='https://github.com/azreenasir/WorldWise-App'
-          h3='WiseApp'
-          desc='Location Review / Favorite Location'
+          src={travelLogo}
+          link='https://travel-list-gold.vercel.app/'
+          h3='Travel List App'
+          desc='List your needs before travel'
         />
         <ProjectCard
-          src={viberr}
+          src={WorldWiseLogo}
           link='https://github.com/azreenasir/WorldWise-App'
           h3='WiseApp'
-          desc='Location Review / Favorite Location'
+          desc='Review/Favorite Location'
         />
         <ProjectCard
-          src={viberr}
-          link='https://github.com/azreenasir/WorldWise-App'
-          h3='WiseApp'
-          desc='Location Review / Favorite Location'
+          src={PopcornLogo}
+          link='https://use-popcorn-steel.vercel.app/'
+          h3='UsePopcorn'
+          desc='Rate your favorite Movies'
         />
       </div>
     </section>
